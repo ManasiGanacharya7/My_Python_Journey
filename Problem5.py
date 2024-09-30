@@ -1,9 +1,16 @@
-# write a program to find the name is present in list or not
+#write a prog to find the sum of first natural num using while loop
 
-l = ["manasi","anju","tush","om"]
-a = input("Enter name: ")
+i = 1
+n = int(input("Enter number: "))
+sum = 0
+while(i<=n):
+    sum+= i
+    i+=1
+print(sum)
 
-if a in l:
-    print(a, "Present in the list")
-else:
-    print(a,"Not Present in the list")
+   
+ 
+   
+
+    
+

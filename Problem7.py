@@ -1,11 +1,24 @@
-# Find the post is talking about "Harry"
+'''write a prog to print *
+                        **
+                        ***
+                        ****'''
 
-post = ["Harry", "harry", "HARRY"]
+n = int(input("Enter the number : "))
 
-a = input("enter post : ")
+for i in range(n):
+    for j in range (0,n-i-1):
+        print(" ",end="")
 
-if a.lower() in post:
-    print("Post is about Harry")
+    for j in range(1, i+1):
+        print(f"{i}", end="")
+    print()
 
-else:
-    print("Not about harry")   
+    
+
+#Function to print full pyramid pattern
+n=5
+for i in range(0,n):
+    print(" "*(n-i),end="")
+    for j in range(0,i+1):
+        print("* ",end="")
+    print()

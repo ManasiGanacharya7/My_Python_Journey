@@ -1,11 +1,10 @@
-# WRITE A PROGRAM TO FIND THE  IS 10 CHARACTERS OR NOT
+#write a prog to find the given no. is prime or not
 
-str = input("Enter string : ")
-print(str)
-a = (len(str))
-print(a)
+n = int(input("Enter the number : "))
 
-if a==10:
-    print("Yes it has 10 character ")
-else:
-    print("It do not have 10 character")
+for i in range(2,n):
+    if (n%i) == 0 :
+        print("number is not prime")
+        break
+    else:
+        print("number is prime")

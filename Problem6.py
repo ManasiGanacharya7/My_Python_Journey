@@ -1,18 +1,13 @@
-# write a program to represent the grade
+#wirte a prog to find the factorial of the given number using for loop :
 
-a = int(input("Enter the Marks : "))
+n = int(input("Enter the number : "))
+i = 1
+fact = 1
 
-if a>=90:
-    print("A")
+for i in range(1,n+1):
+    fact= fact*i
+    if i==n:
+        print("=")
+    print(f"{i} X ", end="")
 
-elif a>=80 and a<=89:
-    print("B")
-
-elif a>=70 and a<=79:
-    print("C")
-
-elif a>=60 and a<=69:
-    print("D")
-
-else :
-    print("F")
+print(fact)

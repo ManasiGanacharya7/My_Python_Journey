@@ -1,13 +1,8 @@
-# detect the comment is spam or not
+# prog to write table of the given no by user wt for loop attempt it using while loop
 
-b1 = "Make a lots of Money"
-b2 = "Make wealth"
-b3 = "click on this link"
-b4 = "Get rewards"
+a = int(input("Enter the table you want : "))
+start = 1
 
-msg = input("Enter message : ")
-
-if(b1 in msg or b2 in msg or b3 in msg or b4 in msg):
-    print("Spam msg")
-else:
-    print("Not spam")
+while(start<11):
+    print(a*start)
+    start = start+1
