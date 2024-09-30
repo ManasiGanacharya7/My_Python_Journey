@@ -1,4 +1,5 @@
-# REPLACE THE 
-s = "Hello Manasi is very bad girl"
-print(s.replace("bad","good"))
-print(s) #strings are immutable
+# write a prog to sum a list of 4 nos..
+
+a = [2,4,6,8]
+suma= sum(a)
+print(suma)

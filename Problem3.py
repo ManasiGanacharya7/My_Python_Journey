@@ -1,4 +1,5 @@
-# WRITE A PROGRAM TO DETECT DOUBLE SPACES IN THE LINE
+# check wheather the tuple can be changed or not 
 
-s = "Hello My name is Manasi and I work at Capgemini"
-print(s.find("  "))
+a = (1,4,66.4,"Man")
+a[0] = 28
+print(a)
