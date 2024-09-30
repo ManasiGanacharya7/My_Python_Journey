@@ -1,13 +1,11 @@
-# write a program to greet all the persons names stored in the list starts with s
+# Prog to find celsius to convert faranite using function
+''''
+c = 5*(f-32/9)'''
 
-l = ["Rani", "Emily","Camey","Gabrial","Shona", "soham","shani"]
+def f_to_c(f):
+    celcicus = 5*(f-32)/9
+    print(f"{celcicus}°C")
 
-a = input("Enter Your Name : ")
-a.lower
+f = int(input("Enter f : "))
+f_to_c(f)
 
-if a[0]=='s' :
-    print(f"welcome {a}")
-else :
-    print("bye")
-
-  

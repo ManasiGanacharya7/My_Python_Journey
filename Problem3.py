@@ -1,8 +1,6 @@
-# prog to write table of the given no by user wt for loop attempt it using while loop
+#to avoid new line
 
-a = int(input("Enter the table you want : "))
-start = 1
-
-while(start<11):
-    print(a*start)
-    start = start+1
+print("a")
+print("b")
+print("c",end="")
+print("d",end="")

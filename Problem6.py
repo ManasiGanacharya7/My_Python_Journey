@@ -1,13 +1,16 @@
-#wirte a prog to find the factorial of the given number using for loop :
+# Prog to convert inches to cms
+#1inch = 2.54cm
 
-n = int(input("Enter the number : "))
-i = 1
-fact = 1
+def inches_cms(n):
 
-for i in range(1,n+1):
-    fact= fact*i
-    if i==n:
-        print("=")
-    print(f"{i} X ", end="")
+    inches = n*2.54
 
-print(fact)
+    print(f"{n} inches = {inches} cms")
+
+n = int(input("Enter the n inches : "))
+inches_cms(n)
+
+
+
+
+

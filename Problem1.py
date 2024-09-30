@@ -1,7 +1,12 @@
-# prog to write table of the given no by user wt for loop
+#Prog to find greatest number using function
 
-a = int(input("Enter the table you want: "))
+def greatestnum(n1,n2,n3):
+    
+    if (n1>n2) and (n1>n3):
+        print(f"{n1} is greater")  
+    elif (n2>n1) and (n2>n3):
+        print(f"{n2} is greater")
+    else:
+        print(f"{n3} is greater")
 
-for i in range(1,11):
-    print(f"{a} * {i} = {a * i}" )
-    i+=1
+greatestnum(0,99,689)
