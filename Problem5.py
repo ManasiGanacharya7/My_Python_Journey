@@ -1,5 +1,4 @@
-#Format a string
+#what is the type of this:
 
-s = " \"Emily in paris\" is \n\tthe best webseries i have ever watched!!"
-print(s.replace("paris","Paris"))
-print(s.upper())
+s = {}
+print(type(s)) #dict

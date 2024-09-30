@@ -1,5 +1,4 @@
-# write a prog to sum a list of 4 nos..
+# what will be the length of the set
 
-a = [2,4,6,8]
-suma= sum(a)
-print(suma)
+s = {17,"17",17.0}
+print(len(s))

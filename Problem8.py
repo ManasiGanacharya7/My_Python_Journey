@@ -1,4 +1,4 @@
-# create an empty dictionary ,allow 4 friends to enter their fav language as values and let their names be keys unique
+# : if the names are same
 
 fav = {}
 

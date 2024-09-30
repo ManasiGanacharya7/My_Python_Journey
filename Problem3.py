@@ -1,5 +1,8 @@
-# check wheather the tuple can be changed or not 
+# CAN WE HAVE A SET OF INT 18 AND STR 18 AS A ITEMS IN THE SET
 
-a = (1,4,66.4,"Man")
-a[0] = 28
-print(a)
+s = set()
+s.add("18")
+s.add(18)
+print(s)
+
+print(type(s))
