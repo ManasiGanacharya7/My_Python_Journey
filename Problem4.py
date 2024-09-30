@@ -1,17 +1,14 @@
-import os
+# USE COMPARISION OPERATOR TO COMPARE THE NUMBERS
 
-def print_directory_contents(path):
-    try:
-        # List all entries in the directory given by 'path'
-        entries = os.listdir(path)
-        print(f"Contents of directory '{path}':")
-        for entry in entries:
-            print(entry)
-    except FileNotFoundError:
-        print(f"The directory '{path}' does not exist.")
-    except PermissionError:
-        print(f"Permission denied to access the directory '{path}'.")
+a = int(input("Enter value for a : "))
+b = int(input("Enter value for b : "))
 
-# Example usage
-directory_path = '.'  # Current directory
-print_directory_contents(directory_path)
+if a>b:
+    print("a is greater")
+
+else:
+    print("b is greater")
+
+    
+print(a>b)
+print(b>a)

@@ -1,12 +1,6 @@
-import os
+# Program to find out average of two numbers by user
 
-# Prints th contents in the directory
-def print_directory_contents(path):
-    try:
-        entries = os.listdir(path)
-        for entry in entries:
-            print(entry)
-    except Exception as e:
-        print(e)
+a = int(input("Enter the value for a : "))
+b = int(input("Enter the value for b : "))
 
-print_directory_contents('.')
+print((a+b)/2)

@@ -1,13 +1,14 @@
-# Write a prog to write a poem
-# used 3single quote
-print("POEM")
-print('''Twinkle Twinkle Little Star” Lyrics
-Twinkle, twinkle, little star,
-How I wonder what you are.
-Up above the world so high,
-Like a diamond in the sky.
+a = 3
+b = 7
+c = a+b
+print(a+b)
 
-When the blazing sun is gone,
-When he nothing shines upon,
-Then you show your little light,
-Twinkle, twinkle, all the night.''')
+# ADDITION OF TWO NUMBERS
+n1 = 0
+n2 = 0
+n1 = int(input("Enter n1: "))
+n2 = int(input("Enter n2: "))
+
+print(n1+n2)
+
+
