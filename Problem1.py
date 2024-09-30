@@ -1,14 +1,3 @@
-a = 3
-b = 7
-c = a+b
-print(a+b)
-
-# ADDITION OF TWO NUMBERS
-n1 = 0
-n2 = 0
-n1 = int(input("Enter n1: "))
-n2 = int(input("Enter n2: "))
-
-print(n1+n2)
-
-
+# WRITE A PROGRAM TO DISPLAY A USER ENTERED NAME FOLLOWED OF GOODAFTERNOON USING INPUT() FUNCTION
+name = input("Enter name : ")
+print(f"{name} Good Afternoon")

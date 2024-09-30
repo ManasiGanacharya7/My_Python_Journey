@@ -1,14 +1,13 @@
-# FIND REMINDER OF NUMBER WHEN DIVIDED BY 2
+# Write a program to fill name and date entered by the user
 
-n1 = int(input("Enter n1: "))
+name = input("Enter name : ")
+date = input("Enter date : ")
 
-print(n1%2)
+print("Hello",name,"Congratulations You are selected as an employee in Capgemini your joining date is",date)
 
-# FIND REMINDER OF NUMBER WHEN DIVIDED BY z
-n = 1
-z = 1
-a = int(input("Enter value for n :"),n)
-x = int(input("Enter value for z :"),z)
+print(f"Hello {name} Congratulations You are selected as an employee in Capgemini your joining date is {date}")
 
-print(n%z)
+letter = '''Dear |<Name>| you are selected congratulations
+ Your joining date is |<Date>|'''
 
+print(letter.replace("|<Name>|", "Manasi").replace("|<Date>|","26/12/2024"))

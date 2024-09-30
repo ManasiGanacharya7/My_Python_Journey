@@ -1,14 +1,4 @@
-# USE COMPARISION OPERATOR TO COMPARE THE NUMBERS
-
-a = int(input("Enter value for a : "))
-b = int(input("Enter value for b : "))
-
-if a>b:
-    print("a is greater")
-
-else:
-    print("b is greater")
-
-    
-print(a>b)
-print(b>a)
+# REPLACE THE 
+s = "Hello Manasi is very bad girl"
+print(s.replace("bad","good"))
+print(s) #strings are immutable

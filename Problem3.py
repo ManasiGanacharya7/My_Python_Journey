@@ -1,4 +1,4 @@
-# CHECK THE TYPE OF THE VARIABLE ASSIGNED USING TYPE FUNCTION
+# WRITE A PROGRAM TO DETECT DOUBLE SPACES IN THE LINE
 
-a = int(input("Enter something: "))
-print(type(a))
+s = "Hello My name is Manasi and I work at Capgemini"
+print(s.find("  "))
