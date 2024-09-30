@@ -1,21 +1,18 @@
-# create an empty dictionary ,allow 4 friends to enter their fav language as values and let their names be keys unique
+# write a program to represent the grade
 
-fav = {}
+a = int(input("Enter the Marks : "))
 
-name = input("Enter your name 1:")
-lang = input("Enter your language 1: ")
-fav.update({name : lang})
+if a>=90:
+    print("A")
 
-name = input("Enter your name 2:")
-lang = input("Enter your language 2: ")
-fav.update({name : lang})
+elif a>=80 and a<=89:
+    print("B")
 
-name = input("Enter your name 3:")
-lang = input("Enter your language 3: ")
-fav.update({name : lang})
+elif a>=70 and a<=79:
+    print("C")
 
-name = input("Enter your name 4:")
-lang = input("Enter your languagev4: ")
-fav.update({name : lang})
+elif a>=60 and a<=69:
+    print("D")
 
-print(fav)
+else :
+    print("F")

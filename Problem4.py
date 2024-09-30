@@ -1,4 +1,11 @@
-# what will be the length of the set
+# WRITE A PROGRAM TO FIND THE  IS 10 CHARACTERS OR NOT
 
-s = {17,"17",17.0}
-print(len(s))
+str = input("Enter string : ")
+print(str)
+a = (len(str))
+print(a)
+
+if a==10:
+    print("Yes it has 10 character ")
+else:
+    print("It do not have 10 character")

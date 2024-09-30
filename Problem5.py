@@ -1,4 +1,9 @@
-#what is the type of this:
+# write a program to find the name is present in list or not
 
-s = {}
-print(type(s)) #dict
+l = ["manasi","anju","tush","om"]
+a = input("Enter name: ")
+
+if a in l:
+    print(a, "Present in the list")
+else:
+    print(a,"Not Present in the list")

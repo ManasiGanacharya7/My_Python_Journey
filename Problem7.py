@@ -1,21 +1,11 @@
-# Prob 6 reffer : if the languages are same
+# Find the post is talking about "Harry"
 
-fav = {}
+post = ["Harry", "harry", "HARRY"]
 
-name = input("Enter your name 1:")
-lang = input("Enter your language 1: ")
-fav.update({name : lang})
+a = input("enter post : ")
 
-name = input("Enter your name 2:")
-lang = input("Enter your language 2: ")
-fav.update({name : lang})
+if a.lower() in post:
+    print("Post is about Harry")
 
-name = input("Enter your name 3:")
-lang = input("Enter your language 3: ")
-fav.update({name : lang})
-
-name = input("Enter your name 4:")
-lang = input("Enter your languagev4: ")
-fav.update({name : lang})
-
-print(fav)
+else:
+    print("Not about harry")   

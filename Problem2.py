@@ -1,19 +1,20 @@
-#Write a program take 8 user marks and display unique nos. only
+# write  a prog to see if the student has passed or failed if he requires at least 40% total 
+# and atleast 33% per subject assume there are 3 subjects
 
-marks = set()
+name = input("Enter your name :")
+m1 = int(input("Enter Science Marks :"))
+m2 = int(input("Enter Maths Marks :"))
+m3 = int(input("Enter History Marks :"))
 
-m1 = input("Enter number 1 :")
-marks.add(m1)
-m1 = input("Enter number 2 :")
-marks.add(m1)
-m1 = input("Enter number 3 :")
-marks.add(m1)
-m1 = input("Enter number 4 :")
-marks.add(m1)
-m1 = input("Enter number 5 :")
-marks.add(m1)
-m1 = input("Enter number 6 :")
-marks.add(m1)
+add = (m1+m2+m3)
+total = 300
+perc = (add/total)*100
 
-print(marks)
-print(marks.union())
+print(add)
+print(perc, "%")
+
+if perc>=40 and m1>=33 and m2>=33 and m3>=33:
+    print(f"{name} {perc} You are Pass")
+
+else:
+    print(f"{name} {perc}you Failed")
