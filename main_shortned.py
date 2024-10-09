@@ -18,6 +18,31 @@ if computer == you:
     print("It's a Draw!")
 
 else:
+    """else:
+    if (you == 1 and computer == -1) :-2
+        print("You Win!")
+
+    elif you == 1 and computer == 0 :-1
+        print("You Loose!")
+
+    elif you == -1 and computer == 1 :2
+        print("You Loose")
+
+    elif you == -1 and computer == 0 : 1
+        print("You Win!")
+
+    elif you == 0 and computer == 1 : 1
+        print("You Win!")
+
+    elif you == 0 and computer == -1 : -1
+        print("You Loose!")
+
+    else:
+        print("Something went wrong")
+        
+        the below logic is writeen on the basis of computer - you """
+    
+
     if (((computer - you) == -2) or (computer - you)==1) :
       print("You Win!")
 
